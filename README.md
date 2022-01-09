@@ -1,4 +1,6 @@
-# Omnifood
+# Project Omnifood
+
+Link to deployed website: [Omnifood](https://omnifood-yuni.netlify.app/)
 
 A simple HTML/CSS project that implements a landing page with company/product description.
 
@@ -18,3 +20,5 @@ Omnifood is a meal delivery startup where customers can subscribe to different m
 - Reusable components using CSS class
 - How to plan, sketch, design, build, test, and optimize a professional website.
 - Responsive website that works with every possible mobile device
+- Image compression for better performance
+- Deploying to Netlify
