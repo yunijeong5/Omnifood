@@ -95,12 +95,19 @@
             </div>
           </div>
           <div class="hero-img-box">
-            <img
-              class="hero-img"
-              src="img/hero.png"
-              alt="women enjoying food, meals in storage container, and food bowls on a table"
-            />
-          </div>
+            <!-- Browser selects which image to display -->
+            <!-- It will replace src in <img> -->
+            <!-- Default: fallback option with better support across browsers -->
+            <picture>
+              <source srcset="img/hero.webp" type="image/webp" />
+              <source srcset="img/hero-min.png" type="image/png" />
+              <img
+                class="hero-img"
+                src="img/hero-min.png"
+                alt="women enjoying food, meals in storage container, and food bowls on a table"
+              />
+            </div>
+            </picture>
         </div>
       </section>
 
